@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="main">
-          <h2 className="text-center mt-24">
-            This is just the heading page of the website
+        <div>
+          <h2>
+            This is just the landing page of the website
           </h2>
         </div>
       </main>

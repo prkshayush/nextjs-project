@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './page.module.css'
 
 export default function Blogs() {
   return (
-    <div>
-      <p className="para">this is the blogs page</p>
+    <div className={styles.container}>
+      <p>this is the blogs page</p>
     </div>
   )
 }

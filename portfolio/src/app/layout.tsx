@@ -1,5 +1,3 @@
-import Footer from './components/footer/Footer'
-import Navbar from './components/navbar/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -7,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Ayush Prakash',
-  description: 'Developed using NextJs and ReactJs',
+  description: 'Created using NextJs and TypeScript',
 }
 
 export default function RootLayout({
@@ -18,12 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
-
+        {children}
       </body>
     </html>
   )

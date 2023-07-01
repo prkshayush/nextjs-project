@@ -1,16 +1,30 @@
 .container{
-    height: 150px;
-    margin: 0 200px;
+    height: 120px;
+    background-color: #e8e8e8;
+    color: rgb(0, 0, 0);
+}
+.wrapper{
+    height: 100%;
+    margin: 0 65px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 22px;
+    font-weight: 700;
 }
 .social{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 .icons{
     opacity: 0.85;
     cursor: pointer;
+}
+.image:hover{
+    width: 40px;
+    height: 40px;
+    transition: 0.25s;
 }

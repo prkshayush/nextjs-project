@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #e8e8e8;
 }
 .logo{
     font-weight: bold;

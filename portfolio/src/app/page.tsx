@@ -3,8 +3,8 @@ import Projects from './components/projects/page'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1>this contains nothing</h1>
+    <div className='container'>
+      <h1>This is the homepage</h1>
       <Projects />
     </div>
   )

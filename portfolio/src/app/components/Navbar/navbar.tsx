@@ -30,12 +30,13 @@ const links = [
 export default function Navbar() {
   return (
     <div className={styles.container}>
-      <div className={styles.imgContainer}>
+      <Link href='/' className={styles.logo}>
         <Image src='/logo.png' alt='Logo' width={50} height={50} className={styles.img} />
-      </div>
-      <div className={styles.buttons}>
+      </Link>
+        
+      <div className={styles.links}>
         {links.map(link=>(
-          <Link key={link.id} href={link.url} className={styles.links}>{link.title}</Link>
+          <Link key={link.id} href={link.url} className={styles.link}>{link.title}</Link>
         ))}
       </div>
     </div>

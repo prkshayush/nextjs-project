@@ -1,13 +1,19 @@
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Noto_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const noto = Noto_Sans({
+  weight: ['400', '500', '600', '700'],
+  style: ["normal" , "italic"],
+  subsets: ['latin'],
+  display: 'swap'
+})
+
 
 export const metadata = {
   title: 'Ayush Prakash',
-  description: "Ayush's personal website",
+  description: "Portfolio website AP",
 }
 
 export default function RootLayout({
@@ -17,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={noto.className}>
         <Navbar />
         {children}
         <Footer />

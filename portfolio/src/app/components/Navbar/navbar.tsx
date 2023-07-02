@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <Link href='/' className={styles.logo}>
-        <Image src='/logo.png' alt='Logo' width={50} height={50} className={styles.img} />
+        <Image src='/logo.png' alt='Logo' width={75} height={75} className={styles.img} />
       </Link>
         
       <div className={styles.links}>

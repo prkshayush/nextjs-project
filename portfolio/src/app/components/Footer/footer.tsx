@@ -14,7 +14,7 @@ export default function Footer() {
         Copyright © {year}. Ayush Prakash
         </p>
         <div className={styles.social}>
-          <Link href='/' className={styles.icons}> <Image src='/github.png' alt='Github' width={32} height={32} className={styles.image} /></Link>
+          <Link href='/' className={styles.icons}> <Image src='/github.png' alt='Github' width={28} height={28} className={styles.image} /></Link>
           <Link href='/' className={styles.icons}> <Image src='/twtr.png' alt='Twitter' width={28} height={28} className={styles.image}/></Link>
           <Link href='/' className={styles.icons}> <Image src='/lkdin.png' alt='LinkedIn' width={28} height={28} className={styles.image}/></Link>
           <Link href='/' className={styles.icons}> <Image src='/igram.png' alt='Instagram' width={28} height={28} className={styles.image}/></Link>

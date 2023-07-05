@@ -16,9 +16,17 @@
     font-weight: 700;
     cursor: pointer;
 }
+.title:hover{
+    background: linear-gradient(135deg, rgb(115, 249, 251), rgb(0, 255, 153));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 200ms ease-in-out;
+}
 .year{
     background: linear-gradient(135deg, rgb(115, 251, 115), rgb(0, 174, 255));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .social{

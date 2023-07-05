@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin: 55px 0;
+}
+.items{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.img{
+    width: 420px;
+    height: 420px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, rgb(166, 0, 255), rgb(0, 195, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -12,7 +12,7 @@ const links = [
   {
     id: 2,
     title: "Projects",
-    url: '#projects'
+    url: '/projects'
   },
   {
     id: 3,
@@ -31,9 +31,8 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <Link href='/' className={styles.logo}>
-        <Image src='/logo.png' alt='Logo' width={75} height={75} className={styles.img} />
+        <Image src='/logo-dark.png' alt='Logo' width={75} height={75} className={styles.img} />
       </Link>
-        
       <div className={styles.links}>
         {links.map(link=>(
           <Link key={link.id} href={link.url} className={styles.link}>{link.title}</Link>

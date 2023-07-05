@@ -1,0 +1,9 @@
+.button{
+    padding: 12px;
+    background: linear-gradient(135deg, rgb(0, 179, 224), rgb(218, 167, 230));
+    width: max-content;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}

@@ -25,7 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={noto.className}>
         <Navbar />
+        <div className='container'>
         {children}
+        </div>
         <Footer />
       </body>
     </html>

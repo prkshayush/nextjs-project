@@ -11,13 +11,13 @@ export default function Footer() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <p className={styles.title}>
-        Copyright © {year}. Ayush Prakash
+          <Link href='/'>Copyright<span className={styles.year}> © {year}. Ayush </span>Prakash </Link>
         </p>
         <div className={styles.social}>
-          <Link href='/' className={styles.icons}> <Image src='/github.png' alt='Github' width={28} height={28} className={styles.image} /></Link>
-          <Link href='/' className={styles.icons}> <Image src='/twtr.png' alt='Twitter' width={28} height={28} className={styles.image}/></Link>
-          <Link href='/' className={styles.icons}> <Image src='/lkdin.png' alt='LinkedIn' width={28} height={28} className={styles.image}/></Link>
-          <Link href='/' className={styles.icons}> <Image src='/igram.png' alt='Instagram' width={28} height={28} className={styles.image}/></Link>
+          <Link href='/' className={styles.icons}> <Image src='/github-mark-white.png' alt='Github' width={28} height={28} className={styles.image} /></Link>
+          <Link href='/' className={styles.icons}> <Image src='/twtr-light.png' alt='Twitter' width={28} height={28} className={styles.image} /></Link>
+          <Link href='/' className={styles.icons}> <Image src='/lkdin-light.png' alt='LinkedIn' width={28} height={28} className={styles.image} /></Link>
+          <Link href='/' className={styles.icons}> <Image src='/ig-light.png' alt='Instagram' width={28} height={28} className={styles.image} /></Link>
         </div>
       </div>
     </div>

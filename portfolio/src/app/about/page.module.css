@@ -8,7 +8,14 @@
 }
 .img{
     border-radius: 20px;
-    border: 5px solid grey;
+    border: 3px solid rgba(171, 162, 162, 0.762);
+    position: relative;
+}
+.rotate{
+    position: absolute;
+    z-index: 6;
+    top: 440px;
+    left: 580px;
 }
 .text{
     display: flex;
@@ -20,16 +27,16 @@
 .item{
     font-size: 2.2rem;
     font-weight: bold;
-    color: antiquewhite;
 }
 .title{
     color: #1B98F5;
 }
-.project:hover{
+.project{
     background: linear-gradient(15deg, rgb(74, 176, 245),rgb(252, 211, 136));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: alias;
 }
 .education{
     margin: 10px 0;
@@ -40,7 +47,6 @@
 .desc{
     font-size: 1.2rem;
     font-weight: 400;
-    color: #d7d7d7;
 }
 .description{
     font-weight: 400;

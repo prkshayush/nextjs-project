@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 120px;
     margin: 55px 0;
@@ -7,20 +8,32 @@
 .items{
     flex: 1;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 40px;
+    cursor: pointer;
 }
 .img{
-    width: 420px;
-    height: 420px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 50%;
+    opacity: 0.88;
 }
 .title{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 65px;
+    font-weight: 800;
     background: linear-gradient(to bottom, rgb(166, 0, 255), rgb(0, 195, 255));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.name{
+    transition: 120ms;
+}
+.name:hover{
+    color: #1B98F5;
+}
+.desc{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
 }

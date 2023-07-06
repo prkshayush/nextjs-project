@@ -12,7 +12,7 @@ const Button = ({text, url}: ButtonProps) => {
     <div>
       <Link href={url}>
       <button className={styles.button}>
-        {text}
+        <span className={styles.buttonContent}>{text}</span>
       </button>
       </Link>
     </div>

@@ -9,10 +9,12 @@ export default function About() {
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image src='/about-img.png' alt='' width={600} height={400} className={styles.img} />
-        <div className={styles.rotate}><Image src='/rotate-dark.png' alt='alt-img' width={180} height={180} /></div>
+        <div className={styles.rotate}><Image src='/rotate-dark.png' alt='alt-img' width={180} height={180} />
+         </div>
+         <div className={styles.aboutImg}><Image src='/about.png' alt='' width={50} height={50}  /></div>
       </div>
       <div className={styles.text}>
-        <h1 className={styles.item}>About Me</h1>
+        <h1 className={styles.item}>ABOUT ME</h1>
         <h3>Hi, I'm Ayush,<span className={styles.title}> Creative and innovative thinker who is always looking for new ways to use technology</span></h3>
         <p className={styles.desc}><span className={styles.description}>As a Junior Developer, I possess an impressive arsenal of skills in JS, Python, Go & Solidity.</span>
           <br /> Additionally, I excel in Next, React with advanced animation styles for designing and maintaining responsive websites that offer a smooth user experience.<Link href='/projects'><span className={styles.project}> Check out my projects here. </span></Link>

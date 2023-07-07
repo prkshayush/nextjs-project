@@ -16,7 +16,8 @@ export default function Home() {
         <Button text='See my work' url='/projects' />
         </div>
         <div className={styles.items}>
-          <Image src='/image.jpg' alt='' width={420} height={420} className={styles.img} />
+          <div className={styles.imgContainer}><Image src='/image.jpg' alt='' width={420} height={420} className={styles.img} />
+          </div>
         </div>
       </div>
     </>

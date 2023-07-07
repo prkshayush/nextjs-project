@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Contact</h1>
-      <h3 className={styles.desc}>Want to contact me?</h3>
+      <h3 className={styles.desc}>Wanna connect? Send a message!!</h3>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Card />

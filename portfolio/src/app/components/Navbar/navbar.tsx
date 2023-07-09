@@ -16,11 +16,16 @@ const links = [
   },
   {
     id: 3,
+    title: "Blogs",
+    url: '/blog'
+  },
+  {
+    id: 4,
     title: "About",
     url: '/about'
   },
   {
-    id: 4,
+    id: 5,
     title: "Contact",
     url: '/contact'
   },

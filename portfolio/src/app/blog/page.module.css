@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+    text-align: justify;
+}
+.title{
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 1.3rem;
+    color: #bbb;
+}

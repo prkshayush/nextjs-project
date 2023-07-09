@@ -4,7 +4,7 @@ import './globals.css'
 import { Noto_Sans } from 'next/font/google'
 
 const noto = Noto_Sans({
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700','800', '900'],
   style: ["normal" , "italic"],
   subsets: ['latin'],
   display: 'swap'

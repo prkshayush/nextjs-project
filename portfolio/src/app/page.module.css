@@ -1,19 +1,4 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 120px;
-    margin: 55px 0;
-}
 
-.items {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-    cursor: pointer;
-}
 .imgContainer{
     /* -webkit-animation: move 2s infinite ease alternate;
     animation: move 2s infinite ease alternate;
@@ -64,10 +49,4 @@
 
 .name:hover {
     color: #1B98F5;
-}
-
-.desc {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: justify;
 }

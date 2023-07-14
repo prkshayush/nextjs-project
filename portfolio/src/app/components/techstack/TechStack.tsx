@@ -41,9 +41,9 @@ export default function TechStack() {
         },
     ]
   return (
-    <div className={styles.container}>
+    <div className="flex items-center my-5 max-w-max gap-5">
         {images.map(image => (
-        <Image key={image.id} src={image.url} alt='teck-stack' width={55} height={55} className={styles.links} />
+        <Image key={image.id} src={image.url} alt={image.name} width={45} height={40} className={styles.links} />
         ))}
     </div>
   )

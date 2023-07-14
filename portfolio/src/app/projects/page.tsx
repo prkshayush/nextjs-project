@@ -11,7 +11,7 @@ export default function Projects() {
       <p className={styles.desc}>Some awesome pieces of code & desgin, turned into reality</p>
       <div className={styles.carousel}>
         <div className={styles.content}>
-          <Image src='/about-img.png' alt='' width={600} height={400} className={styles.img} />
+          <Image src='/about-img.png' alt='' width={600} height={400} className={styles.img} priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
         </div>
         <div className={styles.descrip}>
           <p >This is the project name</p>

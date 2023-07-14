@@ -6,7 +6,7 @@
     gap: 5px;
 }
 .title{
-    margin: 15px 0;
+    margin: 0.9rem 0;
     font-size: 3.5rem;
     font-weight: 800;
     background: linear-gradient(135deg, #1B98F5, white);
@@ -29,7 +29,7 @@
     display: flex;
 }
 .content{
-    box-shadow: 0 0 20px rgba(170, 216, 180, 0.911);
+    box-shadow: 0 0 1.1rem rgba(170, 216, 180, 0.911);
     width: 70%;
     height: 400px;
     margin: 20px;

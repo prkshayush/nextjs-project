@@ -19,16 +19,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.container{
-    max-width: 90vw;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 0 3.9rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 5em;
-}
 /* Firefox */
 * {
     scrollbar-width: thin;

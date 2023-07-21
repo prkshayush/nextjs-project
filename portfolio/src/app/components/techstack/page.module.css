@@ -1,4 +1,15 @@
-
+@media screen and (max-width: 688px) {
+    .links:nth-child(1),
+.links:nth-child(2),
+.links:nth-child(3),
+.links:nth-child(4),
+.links:nth-child(5),
+.links:nth-child(6),
+.links:nth-child(7){
+    width: 32px;
+    height: 28px;
+}
+}
 .links:nth-child(1),
 .links:nth-child(2),
 .links:nth-child(3),

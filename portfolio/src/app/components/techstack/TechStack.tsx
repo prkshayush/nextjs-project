@@ -41,7 +41,7 @@ export default function TechStack() {
         },
     ]
   return (
-    <div className="flex items-center my-5 max-w-max gap-5">
+    <div className="flex items-center justify-between my-5 gap-5">
         {images.map(image => (
         <Image key={image.id} src={image.url} alt={image.name} width={45} height={40} className={styles.links} />
         ))}

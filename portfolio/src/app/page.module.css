@@ -33,20 +33,8 @@
         border-radius: 50%;
     }
 }
-
-.title {
-    font-size: 65px;
-    font-weight: 800;
-    background: linear-gradient(to bottom, rgb(166, 0, 255), rgb(0, 195, 255));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.name {
-    transition: 120ms;
-}
-
-.name:hover {
-    color: #1B98F5;
+@media screen and (max-width: 688px){
+    .title {
+        font-size: 50px;
+    }
 }

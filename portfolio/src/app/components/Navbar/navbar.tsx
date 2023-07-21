@@ -19,16 +19,11 @@ const links = [
   },
   {
     id: 3,
-    title: "Blogs",
-    url: '/blog'
-  },
-  {
-    id: 4,
     title: "About",
     url: '/about'
   },
   {
-    id: 5,
+    id: 4,
     title: "Contact",
     url: '/contact'
   },
@@ -37,12 +32,12 @@ const links = [
 
 export default function Navbar() {
   return (
-    <div className={styles.container}>
-      <Link href='/' className={styles.logo}>
-        <Image src='/logo-dark.png' alt='Logo' width={75} height={75} className={styles.img} />
-      </Link><Menu />
-      <div className={styles.links}>
-       
+    <div className='flex justify-between items-center py-2 fixed w-[100%] bg-dark text-light drop-shadow-3xl z-[100]'>
+      <Link href='/' className="mx-12">
+        <Image src='/logo-dark.png' alt='Logo' width={75} height={75} className="priortiy" />
+      </Link>
+      <Menu />
+      <div className="flex items-center gap-5 mx-12 lg:hidden">
         {links.map(link => (
           <Link key={link.id} href={link.url} className={styles.link}>{link.title}</Link>
         ))}

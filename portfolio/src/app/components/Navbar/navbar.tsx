@@ -19,11 +19,16 @@ const links = [
   },
   {
     id: 3,
+    title: "Blogs",
+    url: '/blogs'
+  },
+  {
+    id: 4,
     title: "About",
     url: '/about'
   },
   {
-    id: 4,
+    id: 5,
     title: "Contact",
     url: '/contact'
   },
@@ -32,8 +37,8 @@ const links = [
 
 export default function Navbar() {
   return (
-    <div className='flex justify-between items-center py-2 fixed w-[100%] bg-dark text-light drop-shadow-3xl z-[100]'>
-      <Link href='/' className="mx-12">
+    <div className='flex justify-between items-center py-2 lg:py-0 fixed w-full bg-dark text-light drop-shadow-3xl z-[100]'>
+      <Link href='/' className="mx-12 lg:mx-6">
         <Image src='/logo-dark.png' alt='Logo' width={75} height={75} className="priortiy" />
       </Link>
       <Menu />

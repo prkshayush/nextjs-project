@@ -24,7 +24,7 @@ export default function Menu() {
     {
       id: 3,
       title: "Blogs",
-      url: '/blog'
+      url: '/blogs'
     },
     {
       id: 4,

@@ -9,7 +9,7 @@ export default function Home() {
       <div className="items-center justify-between gap-x-32 my-14 3xl:flex 2xl:flex lg:flex-col xl:gap-20">
         <div className="flex-1 flex items-center flex-col cursor-pointer gap-10 xs:gap-2">
           <h1 className='text-[65px] font-bold bg-gradient-to-b from-[#a600ff] to-[#00c3ff] bg-clip-text text-transparent'>Tech Enthusiast interested in Music & Sports</h1>
-          <h4 className="text-xl font-normal text-justify sm:text-base">Hey! 👋 I'm <span className='hover:text-light-blue transition-all delay-75'>Ayush Prakash</span>. I'm interested in Tech, Music, Sports & Adventure. I'm a software developer experienced with Front-End | Backend, learning & exploring Web3 & CI/CD.
+          <h4 className="text-xl font-normal text-justify sm:text-base">Hey! 👋 I'm <span className='hover:text-light-blue transition-all delay-75'>Ayush Prakash</span>. I'm interested in Tech, Music, Sports & Adventure. I'm a software developer experienced with Front-End | Backend, learning & exploring Blockchain & CI/CD.
             <br />Here's my Tech Stack 👇
           </h4>
           <TechStack />

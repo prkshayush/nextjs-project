@@ -7,15 +7,13 @@ type ButtonProps = {
   url: string
 }
 
-const Button = ({text, url}: ButtonProps) => {
+const Button = ({ text, url }: ButtonProps) => {
   return (
-    <div>
-      <Link href={url}>
+    <Link href={url}>
       <button className={styles.button}>
-        <span className={styles.buttonContent}>{text}</span>
+        <span className='relative z-10'>{text}</span>
       </button>
-      </Link>
-    </div>
+    </Link>
   )
 }
 

@@ -112,3 +112,26 @@
 .link:nth-child(5):hover::after, .link:nth-child(5):hover::before {
   width: 100%;
 }
+
+    
+.link:nth-child(6) {
+  border: none;
+  background: none;
+}
+
+.link:nth-child(6)::before {
+  margin-left: auto;
+}
+
+.link:nth-child(6)::after, .link:nth-child(6)::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.link:nth-child(6):hover::after, .link:nth-child(6):hover::before {
+  width: 100%;
+}

@@ -1,4 +1,4 @@
-import AuthProvider from './components/authprovider/AuthProvider'
+// import AuthProvider from './components/authprovider/AuthProvider'
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import './globals.css'
@@ -25,13 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={noto.className}>
-        <AuthProvider>
+        {/* <AuthProvider> */}
           <Navbar />
           <div className='max-w-[85vw] min-h-[100vh] my-20 mx-auto flex'>
             {children}
           </div>
           <Footer />
-        </AuthProvider>
+        {/* </AuthProvider> */}
       </body>
     </html>
   )

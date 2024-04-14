@@ -23,8 +23,8 @@
     position: absolute;
     bottom: 1rem;
     right: 0.1rem;
-    /* -webkit-animation: revolve 10s linear infinite;
-    animation: revolve 10s linear infinite; */
+    -webkit-animation: revolve 10s linear infinite;
+    animation: revolve 10s linear infinite;
 }
 @keyframes revolve{
     100% {

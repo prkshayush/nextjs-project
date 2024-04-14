@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className='bg-dark text-light drop-shadow-3xl py-5'>
       <div className="flex justify-between items-center py-8 gap-8 mx-8 md:flex-col">
         <p className="font-bold text-xl md:text-lg xs:text-sm">
-          <Link href='/'>Copyright<span className={styles.year}> © {year}. Ayush </span>Prakash </Link>
+          <Link href='/'>Copyright<span className={styles.year}> © {year}.</span> Ayush Prakash </Link>
         </p>
         <div className="mx-8">
           <Socials />

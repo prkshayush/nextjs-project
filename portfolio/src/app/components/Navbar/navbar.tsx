@@ -18,31 +18,31 @@ const links = [
     title: "Projects",
     url: '/projects'
   },
-  {
-    id: 3,
-    title: "Blogs",
-    url: '/blogs'
-  },
+  // {
+  //   id: 3,
+  //   title: "Blogs",
+  //   url: '/blogs'
+  // },
   {
     id: 4,
     title: "About",
-    url: '/about'
+    url: '/#about'
   },
   {
     id: 5,
     title: "Contact",
     url: '/contact'
   },
-  {
-    id: 6,
-    title: "Dashboard",
-    url: '/dashboard'
-  }
+  // {
+  //   id: 6,
+  //   title: "Dashboard",
+  //   url: '/dashboard'
+  // }
 ]
 
 
 export default function Navbar() {
-  const session = useSession()
+  // const session = useSession()
   return (
     <div className='flex justify-between items-center py-2 lg:py-0 fixed w-full bg-dark text-light drop-shadow-3xl z-[100]'>
       <Link href='/' className="mx-12 lg:mx-6">
@@ -53,11 +53,11 @@ export default function Navbar() {
         {links.map(link => (
           <Link key={link.id} href={link.url} className={styles.link}>{link.title}</Link>
         ))}
-        {
+        {/* {
           session.status === "authenticated" && (<button name='logout' className='p-2 bg-teal-700 rounded-xl text-sm hover:bg-teal-600 ease transition-all text-slate-100' onClick={signOut}>
           LogOut
         </button>)
-        }
+        } */}
        
       </div>
     </div>

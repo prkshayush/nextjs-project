@@ -21,26 +21,26 @@ export default function Menu() {
       title: "Projects",
       url: '/projects'
     },
-    {
-      id: 3,
-      title: "Blogs",
-      url: '/blogs'
-    },
+    // {
+    //   id: 3,
+    //   title: "Blogs",
+    //   url: '/blogs'
+    // },
     {
       id: 4,
       title: "About",
-      url: '/about'
+      url: '/#about'
     },
     {
       id: 5,
       title: "Contact",
       url: '/contact'
     },
-    {
-      id: 6,
-      title: "Dashboard",
-      url: '/dashboard'
-    }
+    // {
+    //   id: 6,
+    //   title: "Dashboard",
+    //   url: '/dashboard'
+    // }
   ]
 
   return (

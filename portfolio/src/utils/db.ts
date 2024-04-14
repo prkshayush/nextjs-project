@@ -1,9 +1,9 @@
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 
-export default async function connect(){
-    try {
-        await mongoose.connect(process.env.MONGO_URL!)
-    } catch (error) {
-        throw new Error("MongoDB connection error")        
-    }
-}
+// export default async function connect(){
+//     try {
+//         await mongoose.connect(process.env.MONGO_URL!)
+//     } catch (error) {
+//         throw new Error("MongoDB connection error")        
+//     }
+// }

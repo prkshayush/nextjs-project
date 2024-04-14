@@ -25,13 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={noto.className}>
-        {/* <AuthProvider> */}
           <Navbar />
           <div className='max-w-[85vw] min-h-[100vh] my-20 mx-auto flex'>
             {children}
           </div>
           <Footer />
-        {/* </AuthProvider> */}
       </body>
     </html>
   )

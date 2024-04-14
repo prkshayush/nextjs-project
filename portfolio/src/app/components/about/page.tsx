@@ -22,7 +22,7 @@ export default function About() {
       {/* text content */}
 
       <div className="!flex-1 flex flex-col justify-between gap-4 cursor-pointer items-center">
-        <h1 className="text-center text-[65px] font-bold bg-gradient-to-b from-[#a600ff] to-[#00c3ff] bg-clip-text text-transparent">About Me</h1>
+        <h1 className="text-center text-[65px] lg:text-2xl font-bold bg-gradient-to-b from-[#a600ff] to-[#00c3ff] bg-clip-text text-transparent">About Me</h1>
         <p className="text-xl font-normal sm:text-base"><span className="font-normal text-gray-400">As a self-taught developer, I possess an impressive arsenal of skills in JS, Python, & Golang.</span>
           <br /> Additionally, I excel in Next, TailwindCSS with advanced animation styles for designing and maintaining responsive websites that offer a smooth user experience.<Link href='/projects'><span className='bg-gradient-to-r from-cyan-400 via-teal-600 to-slate-100 bg-clip-text text-transparent font-semibold'> Check out my projects here. </span></Link>
           Apart from all this, I've also won various competitons during my high school, one of which involved building an Arduino-based robot, an Automated Closing bridge, etc...

@@ -8,7 +8,7 @@ const projects = [
     title: "Loki's-Fleet",
     description: "Ever wondered what if Loki from Marvel Cinematic universe owned a vehicle rental service? Well, here's a fictional website for the same.",
     url: "https://loki-fleet.vercel.app/",
-    img: "/loki.jpg"
+    img: "/loki.webp"
   },
   {
     id: 2,
@@ -44,8 +44,8 @@ export default function Projects() {
         <div id='text'>
           {
             projects.map(project => (
-              <div key={project.id} className='flex gap-5 my-5 p-10'>
-                <div className='flex-1' >
+              <div key={project.id} className='flex lg:flex-col gap-5 my-5 p-10'>
+                <div className='xl:flex-1' >
                   <Image src={project.img} alt={project.title} width={400} height={200} className='rounded-xl ' />
                 </div>
                 <div className='flex flex-1 flex-col justify-center items-center gap-10'>

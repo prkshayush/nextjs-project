@@ -1,3 +1,3 @@
-# My Portfolio Website
+# NextJS test repo
 
-- created using NextJS, TailwindCSS
+- testing repository for NextJS while learning
